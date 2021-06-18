@@ -5,6 +5,7 @@ Blockchain To-Do List App powered by Ethereum
 
 ## Installing Dependencies
 
+* Git
 * Node.JS
 * Truffle Framework
 * Ganache Personal Blockchain
@@ -15,17 +16,19 @@ Blockchain To-Do List App powered by Ethereum
 
 ---
 
-Run the next commands on the CMD
+Run the next commands on Git Bash
 
 ``` console
 git clone https://github.com/AndresAlcalaGtz/blockchain-todo.git
 cd <directory>
 npm install
+truffle migrate --reset
+truffle test
 ```
 
 ---
 
-Run Ganache and make sure that host:port matches with the ones on both truffle-config.js and Metamask
+Start Ganache and make sure that host:port matches with the ones on both truffle-config.js and Metamask
 
 ![Ganache host:port](/screenshots/1_ganache_hostport.jpg)
 ![Configuration host:port](/screenshots/2_configuration_hostport.jpg)
@@ -49,6 +52,8 @@ Notice the account (upper right section) matches with the one on Ganache
 
 ---
 
-Use the To-Do List decentralized application based on blockchain!
+Enjoy the To-Do List decentralized application based on blockchain!
 
 ![To-Do List App Running](/screenshots/6_todo_running.jpg)
+
+---
